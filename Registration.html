@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Yunus Bora Erciyas">
+        <title>Registration</title>
+    </head>
+    
+    <body>
+        <nav>
+            <a href="main.html">&#91;Home&#93; </a>
+            <a href="PictureGallery.html">&#91;Picture Gallery&#93; </a>
+            <a href="ContactMe.html">&#91;Contact Me&#93; </a>
+            <a href="MyHobbies.html">&#91;My Hobbies&#93; </a>
+            <a href="Registration.html">&#91;Register&#93; </a>
+        </nav>
+        <h1>Registration Page</h1>
+        <br>
+        <form method="post">
+            <label for="name">Please Enter Your Name: </label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Please Enter Your E-Mail Address: </label>
+            <input type="email" alt="email address" id="email"><br>
+            <label for="psw">Please Enter A Password: </label>
+            <input type="password" id="psw"><br>
+            <label for="pswcor">Please Reenter your Password: </label>
+            <input type="password" id="pswcor"><br>
+            <label for="birthdate">Please Choose Your Birth Date: </label>
+            <input type="date" alt="Birth Date Picker" id="birthdate"><br><br>
+            <label for="gender">Please Pick Your Gender:<br> </label>
+            <input type="radio" id="gender" name="gender" value="male"> Male<br>
+            <input type="radio" id="gender" name="gender" value="female"> Female<br>
+            <input type="radio" id="gender" name="gender" value="Do not Want to Specify"> Do not Want to Specify<br><br>
+            <label for="cities">Please Choose Your Hometown: </label>
+            <select name="City" id="cities">
+                <option value="0">------</option>
+                <option value="1">Adana</option>
+                <option value="2">Adıyaman</option>
+                <option value="3">Afyonkarahisar</option>
+                <option value="4">Ağrı</option>
+                <option value="5">Amasya</option>
+                <option value="6">Ankara</option>
+                <option value="7">Antalya</option>
+                <option value="8">Artvin</option>
+                <option value="9">Aydın</option>
+                <option value="10">Balıkesir</option>
+                <option value="11">Bilecik</option>
+                <option value="12">Bingöl</option>
+                <option value="13">Bitlis</option>
+                <option value="14">Bolu</option>
+                <option value="15">Burdur</option>
+                <option value="16">Bursa</option>
+                <option value="17">Çanakkale</option>
+                <option value="18">Çankırı</option>
+                <option value="19">Çorum</option>
+                <option value="20">Denizli</option>
+                <option value="21">Diyarbakır</option>
+                <option value="22">Edirne</option>
+                <option value="23">Elazığ</option>
+                <option value="24">Erzincan</option>
+                <option value="25">Erzurum</option>
+                <option value="26">Eskişehir</option>
+                <option value="27">Gaziantep</option>
+                <option value="28">Giresun</option>
+                <option value="29">Gümüşhane</option>
+                <option value="30">Hakkâri</option>
+                <option value="31">Hatay</option>
+                <option value="32">Isparta</option>
+                <option value="33">Mersin</option>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+                <option value="36">Kars</option>
+                <option value="37">Kastamonu</option>
+                <option value="38">Kayseri</option>
+                <option value="39">Kırklareli</option>
+                <option value="40">Kırşehir</option>
+                <option value="41">Kocaeli</option>
+                <option value="42">Konya</option>
+                <option value="43">Kütahya</option>
+                <option value="44">Malatya</option>
+                <option value="45">Manisa</option>
+                <option value="46">Kahramanmaraş</option>
+                <option value="47">Mardin</option>
+                <option value="48">Muğla</option>
+                <option value="49">Muş</option>
+                <option value="50">Nevşehir</option>
+                <option value="51">Niğde</option>
+                <option value="52">Ordu</option>
+                <option value="53">Rize</option>
+                <option value="54">Sakarya</option>
+                <option value="55">Samsun</option>
+                <option value="56">Siirt</option>
+                <option value="57">Sinop</option>
+                <option value="58">Sivas</option>
+                <option value="59">Tekirdağ</option>
+                <option value="60">Tokat</option>
+                <option value="61">Trabzon</option>
+                <option value="62">Tunceli</option>
+                <option value="63">Şanlıurfa</option>
+                <option value="64">Uşak</option>
+                <option value="65">Van</option>
+                <option value="66">Yozgat</option>
+                <option value="67">Zonguldak</option>
+                <option value="68">Aksaray</option>
+                <option value="69">Bayburt</option>
+                <option value="70">Karaman</option>
+                <option value="71">Kırıkkale</option>
+                <option value="72">Batman</option>
+                <option value="73">Şırnak</option>
+                <option value="74">Bartın</option>
+                <option value="75">Ardahan</option>
+                <option value="76">Iğdır</option>
+                <option value="77">Yalova</option>
+                <option value="78">Karabük</option>
+                <option value="79">Kilis</option>
+                <option value="80">Osmaniye</option>
+                <option value="81">Düzce</option>
+            </select><br><br>
+            
+            <label for="hobby">What are your interests and hobbies?<br></label>
+            
+            <input type="checkbox" id="hobby" alt="Hobbies_Basketball" name="hobbies_basketball" value="basketball">Basketball<br>
+            <input type="checkbox" id="hobby" alt="Hobbies_Football" name="hobbies_football">Football<br>
+            <input type="checkbox" id="hobby" alt="Hobbies_Pipe" name="hobbies_pipe" value="pipe">Pipe<br>
+            <input type="checkbox" id="hobby" alt="Hobbies_Camping" name="hobbies_camping" value="camping">Camping<br>
+            <input type="checkbox" id="hobby" alt="Hobbies_ScubaDiving" name="hobbies_scubaDiving" value="scuba diving">Scuba Diving<br>
+            <input type="checkbox" id="hobby" alt="Hobbies_DIY" name="hobbies_DIY" value="DIY">DIY &#40;Do It Yourself&#41; Stuff<br><br><br>
+            
+            <label for="photo">Please Upload A Photo: </label>
+            <input type="file" id="photo"><br><br>
+            
+            <label for="opinion">Please Enter Your Opinions About The Website: </label><br>
+            <textarea id="opinion" placeholder="Please enter your opinions about the site!" rows="6" cols="80"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+
+</html>
